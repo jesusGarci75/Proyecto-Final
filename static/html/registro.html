@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <div class="navbar ">
+            <ul class="act" >
+                <a href="index.html"><img  src="../img/Logo.png" alt=""></a>
+                <li><a href="home.html"><span><i class="fas fa-home"></i></span> Home</a></li>
+                <li><a href="registro.html"><span><i class="fas fa-user"></i></span> Registrar</a></li>
+                <li><a href="Login.html"><span><i class="fas fa-sign-in-alt"></i> Inicio de Sesion</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="centrar row">
+       <form action="" class="  formulario">
+            <h1 class="formulario__titulo">Registro</h1>
+            <br>
+                <div>
+                    <input type="text" class="formulario__input" required>
+                    <label for="" class="formulario__label"><i class="fas fa-user"></i> Nombre usuario</label>  
+
+                    <input type="email" class="formulario__input" required>
+                    <label for="" class="formulario__label"><i class="fas fa-envelope"></i> E-mail </label>  
+
+                    <input type="password" class="formulario__input" required>
+                    <label for="" class="formulario__label"><i class="fas fa-key"></i>  Contraseña</label>   
+
+                    <input type="password" class="formulario__input" required>
+                    <label for="" class="formulario__label"><i class="fas fa-key"></i>  Confirmar Contraseña</label>    
+
+                    <p class="negrita">Genero: </p>
+                    <div class="centrar">
+                    <label class="pad" for="mas"><input type="radio" name="genero" id="mas" value="masculino">Masculino</label>
+                    <label class="pad" for="fem"><input type="radio" name="genero" id="fem" value="femenino">Femenino</label>  
+                    </div>
+                    <p>Al registrarte aceptas nuestras Condiciones de uso y Politicas de Privacidad.</p>
+                    <br>
+                    <p>¿Ya posees cuenta? <a href="Login.html">Inicia Sesion</a></p>
+                    <br>   
+
+                    <input type="submit" class="formulario__submit" value="Registrar">   
+                </div>
+        </form> 
+    </div>
+    <script src="../JavaScipt/registro.js"></script>
+</body>
+</html>
